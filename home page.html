@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Apparel</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+
+        .banner {
+    position: relative;
+    background-image: url('https://i.pinimg.com/564x/d3/3e/bb/d33ebb2a4d119bc46bf2876830198221.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+        /* Featured Products */
+        .featured-products {
+            padding: 50px 0;
+            background-color: #fff;
+        }
+
+        .product {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .product p {
+            margin: 0;
+            font-size: 18px;
+            color: #888;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        /* Blog Section */
+        .blog {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+
+        .blog h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .blog-post p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .blog-post a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial span {
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fashion Apparel</h1>
+            <nav>
+                <ul>
+                    <li><a href="home page.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="Sign up.html">Sign up</a></li>
+                    <li><a href="Log in.html">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="banner">
+    <div class="container">
+        <div class="banner-content">
+            <h2>Welcome to Fashion Apparel</h2>
+            <p>Discover the latest trends and styles in fashion.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="featured-products">
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/9a/f3/a4/9af3a46b013f998b9467a6d7758b3d1a.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$50.00</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/0c/58/4b/0c584b44ae69cf749a5339095eca45fe.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$45.00</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/8f/21/fb/8f21fba125b40012556dcadb15b31f52.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$55.00</p>
+          <a href="login.html" class="btn">Buy Now</a> <!-- Placeholder link to the login page -->
+        </div>
+        <!-- Add more product listings here -->
+    </div>
+</section>
+
+
+    <section class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-post">
+                <h3>10 Fashion Trends for 2024</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique sapien a neque varius, vel vestibulum nisl pharetra.</p>
+                <a href="#">Read More</a>
+            </div>
+            <!-- More blog posts here -->
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial">
+                <p>"I absolutely love Fashion Apparel! Their products are of high quality and their customer service is exceptional."<br><span>- SZA, California</span></p>
+            </div>
+            <!-- More testimonials
